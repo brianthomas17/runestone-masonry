@@ -37,7 +37,7 @@ const HeroSection = () => {
           </div>
 
           <h1 
-            className="font-nordic text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 tracking-wider animate-fade-in"
+            className="font-nordic text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 tracking-[0.15em] animate-fade-in"
             style={{ animationDelay: '0.2s' }}
           >
             Runestone Masonry
