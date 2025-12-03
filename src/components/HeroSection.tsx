@@ -51,16 +51,16 @@ const HeroSection = () => {
           </p>
 
         </div>
-
-        {/* Scroll indicator */}
-        <button
-          onClick={scrollToServices}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-foreground transition-colors animate-bounce"
-          aria-label="Scroll to services"
-        >
-          <ChevronDown size={32} />
-        </button>
       </div>
+
+      {/* Scroll indicator */}
+      <button
+        onClick={scrollToServices}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-muted-foreground hover:text-foreground transition-colors animate-bounce"
+        aria-label="Scroll to services"
+      >
+        <ChevronDown size={32} />
+      </button>
     </section>
   );
 };
