@@ -1,10 +1,10 @@
 import { Card } from '@/components/ui/card';
 
 const portfolioItems = [
-  { id: 1, title: 'Stone Wall Cladding', category: 'Exterior Stonework', image: '/images/portfolio/runestone1.jpg' },
+  { id: 1, title: 'Natural Stone Siding', category: 'Exterior Stonework', image: '/images/portfolio/runestone4.jpg' },
   { id: 2, title: 'Foundation Stone Work', category: 'Residential', image: '/images/portfolio/runestone2.jpg' },
   { id: 3, title: 'Interior Brick Fireplace', category: 'Fireplace', image: '/images/portfolio/runestone3.jpg' },
-  { id: 4, title: 'Natural Stone Siding', category: 'Exterior Stonework', image: '/images/portfolio/runestone4.jpg' },
+  { id: 4, title: 'Stone Wall Cladding', category: 'Exterior Stonework', image: '/images/portfolio/runestone1.jpg' },
 ];
 
 const PortfolioSection = () => {
