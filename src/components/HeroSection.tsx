@@ -28,13 +28,12 @@ const HeroSection = () => {
             />
           </div>
 
-          <h1 
-            className="font-nordic text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 animate-fade-in"
+          <img 
+            src="/images/hero-title.png" 
+            alt="Runestone Masonry"
+            className="h-auto w-full max-w-2xl mx-auto mb-6 animate-fade-in"
             style={{ animationDelay: '0.2s' }}
-          >
-            <span className="block">Runestone</span>
-            <span className="block mt-2 md:mt-4">Masonry</span>
-          </h1>
+          />
 
           <p 
             className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in"
