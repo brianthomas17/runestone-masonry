@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Nordic Font */
+/* Custom Display Font */
 @font-face {
   font-family: 'Nordic';
-  src: url('/fonts/Nordic.ttf') format('truetype');
+  src: url('/fonts/DalekPinpointBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -46,8 +46,9 @@
     --radius: 0.5rem;
 
     /* Custom Runestone colors */
-    --slate-accent: 210 20% 50%;
+    --slate-accent: 210 12% 59%;
     --slate-glow: 210 25% 60%;
+    --slate-title: 210 12% 59%;
     --stone-warm: 30 15% 35%;
     --stone-dark: 220 10% 6%;
 

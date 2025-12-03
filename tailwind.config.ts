@@ -50,6 +50,7 @@ export default {
         slate: {
           accent: "hsl(var(--slate-accent))",
           glow: "hsl(var(--slate-glow))",
+          title: "hsl(var(--slate-title))",
         },
         stone: {
           warm: "hsl(var(--stone-warm))",
