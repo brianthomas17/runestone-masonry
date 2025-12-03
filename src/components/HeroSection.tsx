@@ -19,12 +19,10 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden stone-texture"
     >
-      {/* Background with overlay */}
-      <div className="absolute inset-0 stone-texture">
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
-      </div>
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-background/90 z-[1]" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">

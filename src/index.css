@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Nordic Font */
+@font-face {
+  font-family: 'Nordic';
+  src: url('/fonts/Nordic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Runestone Masonry - Dark Rustic Nordic Theme */
 
 @layer base {
@@ -126,10 +135,19 @@
   }
 
   .stone-texture {
+    position: relative;
+  }
+
+  .stone-texture::before {
+    content: '';
+    position: absolute;
+    inset: 0;
     background-image: url('/runestone-bg.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    opacity: 0.15;
+    z-index: 0;
   }
 
   .glass-effect {
