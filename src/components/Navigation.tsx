@@ -62,12 +62,6 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button
-              onClick={() => scrollToSection('contact')}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
-            >
-              Request a Quote
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -93,12 +87,6 @@ const Navigation = () => {
                   {item.label}
                 </button>
               ))}
-              <Button
-                onClick={() => scrollToSection('contact')}
-                className="bg-primary hover:bg-primary/90 text-primary-foreground w-full"
-              >
-                Request a Quote
-              </Button>
             </div>
           </div>
         )}

@@ -67,7 +67,7 @@ const HeroSection = () => {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6"
             >
-              Request a Quote
+              Contact
             </Button>
             <Button
               onClick={scrollToServices}
