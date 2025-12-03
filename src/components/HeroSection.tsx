@@ -24,7 +24,7 @@ const HeroSection = () => {
             <img 
               src="/images/logo.png" 
               alt="Runestone Masonry Logo" 
-              className="w-56 h-56 md:w-72 md:h-72 mx-auto object-contain"
+              className="h-56 md:h-72 w-auto mx-auto object-contain"
             />
           </div>
 

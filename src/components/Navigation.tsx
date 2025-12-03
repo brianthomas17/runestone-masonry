@@ -44,7 +44,7 @@ const Navigation = () => {
             <img 
               src="/images/logo.png" 
               alt="Runestone Masonry Logo" 
-              className="w-10 h-10 rounded-full object-cover"
+              className="h-12 w-auto object-contain"
             />
             <span className="font-nordic text-xl text-foreground hidden sm:block">
               Runestone Masonry
