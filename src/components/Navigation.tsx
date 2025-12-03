@@ -41,9 +41,11 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
-            <div className="w-10 h-10 rounded-full bg-primary/20 border border-primary/40 flex items-center justify-center">
-              <span className="text-primary font-nordic text-lg">R</span>
-            </div>
+            <img 
+              src="/images/logo.png" 
+              alt="Runestone Masonry Logo" 
+              className="w-10 h-10 rounded-full object-cover"
+            />
             <span className="font-nordic text-xl text-foreground hidden sm:block">
               Runestone Masonry
             </span>

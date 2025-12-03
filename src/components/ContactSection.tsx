@@ -39,8 +39,10 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-secondary/30">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="relative py-24">
+      {/* Overlay - 85% dark for content readability */}
+      <div className="absolute inset-0 bg-background/85 z-0" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-nordic text-4xl md:text-5xl text-foreground mb-4">
             Get in Touch
@@ -55,7 +57,7 @@ const ContactSection = () => {
           <div className="space-y-6">
             <Card className="bg-card border-border">
               <CardHeader>
-                <CardTitle className="text-foreground font-nordic flex items-center gap-3">
+                <CardTitle className="text-foreground flex items-center gap-3 font-semibold">
                   <Phone className="w-5 h-5 text-primary" />
                   Call Us
                 </CardTitle>
@@ -72,7 +74,7 @@ const ContactSection = () => {
 
             <Card className="bg-card border-border">
               <CardHeader>
-                <CardTitle className="text-foreground font-nordic flex items-center gap-3">
+                <CardTitle className="text-foreground flex items-center gap-3 font-semibold">
                   <MapPin className="w-5 h-5 text-primary" />
                   Service Area
                 </CardTitle>
@@ -86,7 +88,7 @@ const ContactSection = () => {
 
             <Card className="bg-card border-border">
               <CardHeader>
-                <CardTitle className="text-foreground font-nordic flex items-center gap-3">
+                <CardTitle className="text-foreground flex items-center gap-3 font-semibold">
                   <Mail className="w-5 h-5 text-primary" />
                   Hours
                 </CardTitle>
@@ -103,7 +105,7 @@ const ContactSection = () => {
           {/* Contact Form */}
           <Card className="bg-card border-border">
             <CardHeader>
-              <CardTitle className="text-foreground font-nordic text-2xl">
+              <CardTitle className="text-foreground text-2xl font-semibold">
                 Request a Quote
               </CardTitle>
               <CardDescription className="text-muted-foreground">

@@ -26,8 +26,10 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-24 bg-secondary/30">
-      <div className="container mx-auto px-4">
+    <section id="services" className="relative py-24">
+      {/* Overlay - 85% dark for content readability */}
+      <div className="absolute inset-0 bg-background/85 z-0" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-nordic text-4xl md:text-5xl text-foreground mb-4">
             Our Services
@@ -48,7 +50,7 @@ const ServicesSection = () => {
                 <div className="w-14 h-14 rounded-lg bg-primary/20 flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors">
                   <service.icon className="w-7 h-7 text-primary" />
                 </div>
-                <CardTitle className="text-foreground font-nordic text-xl">
+                <CardTitle className="text-foreground text-xl font-semibold">
                   {service.title}
                 </CardTitle>
               </CardHeader>

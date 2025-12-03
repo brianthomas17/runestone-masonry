@@ -6,9 +6,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-primary/20 border border-primary/40 flex items-center justify-center">
-              <span className="text-primary font-nordic text-sm">R</span>
-            </div>
+            <img 
+              src="/images/logo.png" 
+              alt="Runestone Masonry Logo" 
+              className="w-8 h-8 rounded-full object-cover"
+            />
             <span className="font-nordic text-foreground">Runestone Masonry</span>
           </div>
 
