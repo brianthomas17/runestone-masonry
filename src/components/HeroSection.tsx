@@ -37,10 +37,11 @@ const HeroSection = () => {
           </div>
 
           <h1 
-            className="font-nordic text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 tracking-[0.15em] animate-fade-in"
+            className="font-nordic text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 animate-fade-in"
             style={{ animationDelay: '0.2s' }}
           >
-            Runestone Masonry
+            <span className="block">Runestone</span>
+            <span className="block mt-2 md:mt-4">Masonry</span>
           </h1>
 
           <p 
