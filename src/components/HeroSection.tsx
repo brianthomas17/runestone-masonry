@@ -19,19 +19,21 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden stone-texture"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-background/90 z-[1]" />
+      {/* Dark overlay - 50% for hero to showcase background */}
+      <div className="absolute inset-0 bg-background/50 z-[1]" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Logo placeholder */}
+          {/* Logo */}
           <div className="mb-8 animate-fade-in">
-            <div className="w-24 h-24 mx-auto rounded-full bg-primary/20 border-2 border-primary/40 flex items-center justify-center">
-              <span className="text-primary font-nordic text-4xl">R</span>
-            </div>
+            <img 
+              src="/images/logo.png" 
+              alt="Runestone Masonry Logo" 
+              className="w-32 h-32 mx-auto rounded-full object-cover border-2 border-primary/40"
+            />
           </div>
 
           <h1 

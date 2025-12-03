@@ -12,8 +12,10 @@ const portfolioItems = [
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="portfolio" className="relative py-24">
+      {/* Overlay - 90% dark for portfolio cards */}
+      <div className="absolute inset-0 bg-background/90 z-0" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-nordic text-4xl md:text-5xl text-foreground mb-4">
             Our Work
@@ -39,7 +41,7 @@ const PortfolioSection = () => {
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="text-center text-primary-foreground p-4">
-                    <h3 className="font-nordic text-xl mb-1">{item.title}</h3>
+                    <h3 className="text-xl font-semibold mb-1">{item.title}</h3>
                     <p className="text-sm opacity-90">{item.category}</p>
                   </div>
                 </div>
