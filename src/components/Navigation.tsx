@@ -46,9 +46,11 @@ const Navigation = () => {
               alt="Runestone Masonry Logo" 
               className="h-12 w-auto object-contain"
             />
-            <span className="font-nordic text-xl text-foreground hidden sm:block">
-              Runestone Masonry
-            </span>
+            <img 
+              src="/images/menu-title.png" 
+              alt="Runestone Masonry" 
+              className="h-8 w-auto object-contain hidden sm:block"
+            />
           </button>
 
           {/* Desktop Navigation */}
