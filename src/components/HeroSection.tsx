@@ -28,11 +28,11 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Logo */}
-          <div className="mb-8 animate-fade-in">
+          <div className="mb-6 animate-fade-in -mt-16">
             <img 
               src="/images/logo.png" 
               alt="Runestone Masonry Logo" 
-              className="w-32 h-32 mx-auto rounded-full object-cover border-2 border-primary/40"
+              className="w-56 h-56 md:w-72 md:h-72 mx-auto object-contain"
             />
           </div>
 
