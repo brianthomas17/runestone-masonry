@@ -1,14 +1,6 @@
-import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
 
 const HeroSection = () => {
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   const scrollToServices = () => {
     const element = document.getElementById('services');
     if (element) {
@@ -58,26 +50,6 @@ const HeroSection = () => {
             Serving Durango, Bayfield, Hesperus, Hermosa & Oxford, CO
           </p>
 
-          <div 
-            className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in"
-            style={{ animationDelay: '0.6s' }}
-          >
-            <Button
-              onClick={scrollToContact}
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6"
-            >
-              Contact
-            </Button>
-            <Button
-              onClick={scrollToServices}
-              variant="outline"
-              size="lg"
-              className="border-primary/50 text-foreground hover:bg-primary/10 text-lg px-8 py-6"
-            >
-              Our Services
-            </Button>
-          </div>
         </div>
 
         {/* Scroll indicator */}
