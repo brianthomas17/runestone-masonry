@@ -69,7 +69,8 @@ export default {
       },
       fontFamily: {
         nordic: ['Nordic', 'serif'],
-        body: ['system-ui', '-apple-system', 'sans-serif'],
+        sans: ['Quicksand', 'system-ui', 'sans-serif'],
+        body: ['Quicksand', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
