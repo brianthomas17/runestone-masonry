@@ -27,8 +27,8 @@ const services = [
 const ServicesSection = () => {
   return (
     <section id="services" className="relative py-24">
-      {/* Overlay - 85% dark for content readability */}
-      <div className="absolute inset-0 bg-background/85 z-0" />
+      {/* Overlay - 80% dark for content readability */}
+      <div className="absolute inset-0 bg-background/80 z-0" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-nordic text-4xl md:text-5xl text-foreground mb-4">
