@@ -1,13 +1,10 @@
 import { Card } from '@/components/ui/card';
-import { ImageIcon } from 'lucide-react';
 
 const portfolioItems = [
-  { id: 1, title: 'Stone Siding Project', category: 'Masonry Siding' },
-  { id: 2, title: 'Retaining Wall', category: 'Stone Walls' },
-  { id: 3, title: 'Patio Installation', category: 'Stonework' },
-  { id: 4, title: 'Fireplace Restoration', category: 'Repairs' },
-  { id: 5, title: 'Garden Wall', category: 'Stone Walls' },
-  { id: 6, title: 'Exterior Stonework', category: 'Stonework' },
+  { id: 1, title: 'Stone Wall Cladding', category: 'Exterior Stonework', image: '/images/portfolio/runestone1.jpg' },
+  { id: 2, title: 'Foundation Stone Work', category: 'Residential', image: '/images/portfolio/runestone2.jpg' },
+  { id: 3, title: 'Interior Brick Fireplace', category: 'Fireplace', image: '/images/portfolio/runestone3.jpg' },
+  { id: 4, title: 'Natural Stone Siding', category: 'Exterior Stonework', image: '/images/portfolio/runestone4.jpg' },
 ];
 
 const PortfolioSection = () => {
@@ -25,19 +22,19 @@ const PortfolioSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {portfolioItems.map((item, index) => (
             <Card
               key={item.id}
               className="bg-card border-border overflow-hidden group cursor-pointer hover:border-primary/50 transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Placeholder image area */}
-              <div className="aspect-[4/3] bg-secondary flex items-center justify-center relative overflow-hidden">
-                <div className="text-muted-foreground flex flex-col items-center gap-2">
-                  <ImageIcon size={48} className="opacity-50" />
-                  <span className="text-sm">Project Photo</span>
-                </div>
+              <div className="aspect-[4/3] relative overflow-hidden">
+                <img 
+                  src={item.image} 
+                  alt={item.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="text-center text-primary-foreground p-4">
