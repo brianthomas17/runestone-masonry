@@ -46,7 +46,7 @@ const HeroSection = () => {
             className="text-lg text-slate-accent mb-10 animate-fade-in"
             style={{ animationDelay: '0.5s' }}
           >
-            Serving Durango, Bayfield, and the Animas Valley
+            Serving Durango, Bayfield, and the Animas Valley Colorado
           </p>
 
         </div>
