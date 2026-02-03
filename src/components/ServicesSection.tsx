@@ -4,22 +4,22 @@ import { Layers, Home, Mountain, Wrench } from 'lucide-react';
 const services = [
   {
     icon: Layers,
-    title: 'Masonry Siding',
-    description: 'Transform your home with beautiful, durable masonry siding that combines timeless aesthetics with modern performance.',
+    title: 'Stone Veneer',
+    description: 'Transform your home with beautiful, durable stone veneer that combines timeless aesthetics with modern performance.',
   },
   {
     icon: Mountain,
-    title: 'Stone Walls',
-    description: 'Custom stone wall construction for retaining walls, garden borders, and architectural features that stand the test of time.',
+    title: 'Block Walls',
+    description: 'Custom block wall construction for retaining walls, garden borders, and architectural features that stand the test of time.',
   },
   {
     icon: Home,
-    title: 'Stonework',
-    description: 'Expert craftsmanship in natural stone installation for patios, walkways, fireplaces, and outdoor living spaces.',
+    title: 'Landscape Stonework',
+    description: 'Expert craftsmanship in natural stone installation for patios, walkways, fire pits, and outdoor living spaces.',
   },
   {
     icon: Wrench,
-    title: 'Repairs & Restoration',
+    title: 'Repairs and Remodels',
     description: 'Professional repair and restoration services to bring aging masonry back to its original beauty and structural integrity.',
   },
 ];
