@@ -47,7 +47,7 @@ const ContactSection = () => {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-muted-foreground text-base">
-                Durango, Bayfield, Hesperus, Hermosa & Oxford, CO
+                Serving Durango, Bayfield, and Animas Valley Colorado
               </CardDescription>
             </CardContent>
           </Card>
