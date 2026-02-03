@@ -1,8 +1,8 @@
 const AboutSection = () => {
   return (
     <section id="about" className="relative py-24">
-      {/* Overlay - 80% dark for content readability */}
-      <div className="absolute inset-0 bg-background/80 z-0" />
+      {/* Overlay - 90% dark to match Portfolio section */}
+      <div className="absolute inset-0 bg-background/90 z-0" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-sans text-4xl md:text-5xl text-foreground mb-4 font-medium uppercase tracking-wide">
