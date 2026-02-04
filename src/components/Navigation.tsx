@@ -38,21 +38,43 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo placeholder */}
-          <button
-            onClick={() => scrollToSection('hero')}
-            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
-          >
-            <img 
-              src="/images/logo.png" 
-              alt="Runestone Masonry Logo" 
-              className="h-12 w-auto object-contain"
-            />
+          <div className="flex items-center gap-4">
+            {/* Logo 1 - Blue/Cream */}
+            <div className="flex flex-col items-center">
+              <button
+                onClick={() => scrollToSection('hero')}
+                className="hover:opacity-80 transition-opacity"
+              >
+                <img 
+                  src="/images/Runestone_Masonry_5x5_1.png" 
+                  alt="Runestone Masonry Logo Option 1" 
+                  className="h-12 w-auto object-contain"
+                />
+              </button>
+              <span className="text-xs text-muted-foreground mt-1">1</span>
+            </div>
+            
+            {/* Logo 2 - Black/White */}
+            <div className="flex flex-col items-center">
+              <button
+                onClick={() => scrollToSection('hero')}
+                className="hover:opacity-80 transition-opacity"
+              >
+                <img 
+                  src="/images/Runestone_Masonry_Transparent.png" 
+                  alt="Runestone Masonry Logo Option 2" 
+                  className="h-12 w-auto object-contain"
+                />
+              </button>
+              <span className="text-xs text-muted-foreground mt-1">2</span>
+            </div>
+            
             <img 
               src="/images/menu-title.png" 
               alt="Runestone Masonry" 
               className="h-8 w-auto object-contain hidden sm:block"
             />
-          </button>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
