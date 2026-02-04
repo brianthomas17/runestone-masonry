@@ -49,14 +49,14 @@ const HeroSection = () => {
 
           {/* Text Title Comparison */}
           <div 
-            className="mb-6 animate-fade-in flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12"
+            className="mb-6 animate-fade-in flex flex-col justify-center items-center gap-8"
             style={{ animationDelay: '0.2s' }}
           >
             <div className="flex flex-col items-center">
               <img 
                 src="/images/Runestone_Masonry_Text_1.png" 
                 alt="Runestone Masonry Text Option 1"
-                className="h-auto w-full max-w-sm object-contain"
+                className="h-auto w-full max-w-2xl object-contain"
               />
               <span className="text-lg text-muted-foreground mt-2 font-medium">Text A</span>
             </div>
@@ -64,7 +64,7 @@ const HeroSection = () => {
               <img 
                 src="/images/Runestone_Masonry_Text_2.png" 
                 alt="Runestone Masonry Text Option 2"
-                className="h-auto w-full max-w-sm object-contain"
+                className="h-auto w-full max-w-2xl object-contain"
               />
               <span className="text-lg text-muted-foreground mt-2 font-medium">Text B</span>
             </div>
