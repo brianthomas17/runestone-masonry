@@ -1,46 +1,39 @@
 
-## SEO Optimization Plan
 
-Update all SEO metadata to reflect the current branding with the correct phone number and service areas.
+## Logo Comparison Plan
 
-### Changes Overview
+Add both new logos to the navigation so you can compare them side-by-side and decide which one works best for Runestone Masonry.
 
-| Element | Current | Updated |
-|---------|---------|---------|
-| Meta Description | "...Hesperus, Hermosa, and Oxford, CO..." | "...and the Animas Valley, Colorado..." |
-| Meta Keywords | References Hesperus, Hermosa, Oxford | Updated for Animas Valley focus |
-| Schema.org Phone | (262) 442-3544 | (970) 559-0187 |
-| Schema.org Areas | Hesperus, Hermosa, Oxford | Animas Valley, Colorado |
+### What You'll See
 
-### File Modified
+The navigation will temporarily show both logos next to each other so you can compare how each one looks on the site. Once you pick your favorite, we can remove the other one.
 
-**index.html** - All SEO updates in one file:
+### Changes
 
-1. **Meta Description** (line 7)
-   - Update to: "Professional masonry and stonework services in Durango, Bayfield, and the Animas Valley, Colorado. Expert stone veneer, block walls, landscape stonework, and repairs. Call (970) 559-0187 for a free quote."
+**1. Add Logo Files**
+- Copy `Runestone_Masonry_5x5_1.png` (blue/cream version) to `public/images/`
+- Copy `Runestone_Masonry_Transparent.png` (black/white version) to `public/images/`
 
-2. **Meta Keywords** (line 8)
-   - Update to focus on actual services and new area naming:
-   - "Masonry Durango CO, Stonework Durango CO, Mason Bayfield CO, Animas Valley masonry, stone veneer Colorado, block walls Durango, landscape stonework, fire pit masonry, masonry repairs Durango"
+**2. Update Navigation Component**
+Modify `src/components/Navigation.tsx` to display both logos with labels:
 
-3. **Open Graph Description** (line 16)
-   - Update to: "Professional masonry and stonework services in Durango, Bayfield, and the Animas Valley, Colorado. Quality craftsmanship, lasting results."
+```text
+Current:  [Logo] [Title]
 
-4. **Twitter Description** (line 22)
-   - Update to match Open Graph description
+Updated:  [Logo 1] [Logo 2] [Title]
+           "1"       "2"
+```
 
-5. **Schema.org Structured Data** (lines 25-36)
-   - Update phone number to "(970) 559-0187"
-   - Update areaServed to: ["Durango, CO", "Bayfield, CO", "Animas Valley, CO"]
-   - Update serviceType to match actual services: ["Stone Veneer", "Block Walls", "Landscape Stonework", "Fire Pits", "Masonry Repairs", "Remodels"]
-   - Add additional recommended properties:
-     - `url`: "https://runestonemasonry.com"
-     - `image`: "https://runestonemasonry.com/images/logo.png"
+Each logo will have a small number label underneath so you can easily tell us which one you prefer (Logo 1 = blue/cream, Logo 2 = black/white).
 
-### SEO Improvements Summary
+### Files Modified
+- `public/images/Runestone_Masonry_5x5_1.png` (new file)
+- `public/images/Runestone_Masonry_Transparent.png` (new file)
+- `src/components/Navigation.tsx`
 
-- Consistent messaging across all meta tags and structured data
-- Phone number corrected everywhere for click-to-call functionality
-- Service areas match what's displayed on the website
-- Service types aligned with actual offerings (Stone Veneer, Block Walls, Landscape Stonework, Fire Pits, Repairs)
-- Enhanced Schema.org data for better local search visibility
+### After You Decide
+Once you pick your favorite, just let me know which one (1 or 2) and I'll:
+- Remove the other logo
+- Update the navigation to show only your chosen logo
+- Clean up the unused image file
+
