@@ -47,12 +47,28 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <img 
-            src="/images/hero-title.png" 
-            alt="Runestone Masonry"
-            className="h-auto w-full max-w-2xl mx-auto mb-6 animate-fade-in"
+          {/* Text Title Comparison */}
+          <div 
+            className="mb-6 animate-fade-in flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12"
             style={{ animationDelay: '0.2s' }}
-          />
+          >
+            <div className="flex flex-col items-center">
+              <img 
+                src="/images/Runestone_Masonry_Text_1.png" 
+                alt="Runestone Masonry Text Option 1"
+                className="h-auto w-full max-w-sm object-contain"
+              />
+              <span className="text-lg text-muted-foreground mt-2 font-medium">Text A</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img 
+                src="/images/Runestone_Masonry_Text_2.png" 
+                alt="Runestone Masonry Text Option 2"
+                className="h-auto w-full max-w-sm object-contain"
+              />
+              <span className="text-lg text-muted-foreground mt-2 font-medium">Text B</span>
+            </div>
+          </div>
 
           <p 
             className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in"
