@@ -20,12 +20,12 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Logo Comparison */}
-          <div className="mb-6 animate-fade-in -mt-16 flex justify-center items-end gap-8">
+          <div className="mb-6 animate-fade-in -mt-16 flex justify-center items-end gap-6 md:gap-8">
             <div className="flex flex-col items-center">
               <img 
                 src="/images/Runestone_Masonry_5x5_1.png" 
                 alt="Runestone Masonry Logo Option 1" 
-                className="h-56 md:h-72 w-auto object-contain"
+                className="h-40 md:h-56 w-auto object-contain"
               />
               <span className="text-lg text-muted-foreground mt-2 font-medium">1</span>
             </div>
@@ -33,9 +33,17 @@ const HeroSection = () => {
               <img 
                 src="/images/Runestone_Masonry_Transparent.png" 
                 alt="Runestone Masonry Logo Option 2" 
-                className="h-56 md:h-72 w-auto object-contain"
+                className="h-40 md:h-56 w-auto object-contain"
               />
               <span className="text-lg text-muted-foreground mt-2 font-medium">2</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img 
+                src="/images/Runestone_Masonry_5x5in_3.png" 
+                alt="Runestone Masonry Logo Option 3" 
+                className="h-40 md:h-56 w-auto object-contain"
+              />
+              <span className="text-lg text-muted-foreground mt-2 font-medium">3</span>
             </div>
           </div>
 
