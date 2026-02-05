@@ -20,6 +20,15 @@
   font-display: swap;
 }
 
+/* Section Header Font */
+@font-face {
+  font-family: 'Norsebold';
+  src: url('/fonts/Norsebold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Runestone Masonry - Dark Rustic Nordic Theme */
 
 @layer base {

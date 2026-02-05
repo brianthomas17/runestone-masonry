@@ -8,7 +8,7 @@ const ContactSection = () => {
       <div className="absolute inset-0 bg-background/80 z-0" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="font-sans text-4xl md:text-5xl text-foreground mb-4 font-medium uppercase tracking-wide">
+         <h2 className="font-norsebold text-4xl md:text-5xl text-foreground mb-4 uppercase tracking-wide">
             Get in Touch
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
