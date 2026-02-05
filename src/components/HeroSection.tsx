@@ -19,19 +19,9 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-         {/* Logo */}
-         <div className="mb-6 animate-fade-in -mt-16 flex justify-center">
-           <img 
-             src="/images/Runestone_Masonry_5x5in_3.png" 
-             alt="Runestone Masonry Logo" 
-             className="h-40 md:h-56 w-auto object-contain"
-           />
-          </div>
-
          {/* Text Title */}
           <div 
-           className="mb-6 animate-fade-in flex justify-center"
-            style={{ animationDelay: '0.2s' }}
+           className="mb-6 animate-fade-in flex justify-center -mt-16"
           >
            <img 
              src="/images/Runestone_Masonry_Text_1.png" 
