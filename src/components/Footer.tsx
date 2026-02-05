@@ -11,7 +11,6 @@ const Footer = () => {
               alt="Runestone Masonry Logo" 
               className="w-8 h-8 rounded-full object-cover"
             />
-            <span className="font-nordic text-foreground">Runestone Masonry</span>
           </div>
 
           <p className="text-muted-foreground text-sm text-center">
