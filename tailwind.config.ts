@@ -69,6 +69,7 @@ export default {
       },
       fontFamily: {
         nordic: ['Nordic', 'serif'],
+       norsebold: ['Norsebold', 'serif'],
         sans: ['Quicksand', 'system-ui', 'sans-serif'],
         body: ['Quicksand', 'system-ui', 'sans-serif'],
       },
