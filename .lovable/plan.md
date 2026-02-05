@@ -1,39 +1,45 @@
 
 
-## Logo Comparison Plan
+## Finalize Branding Across the Site
 
-Add both new logos to the navigation so you can compare them side-by-side and decide which one works best for Runestone Masonry.
-
-### What You'll See
-
-The navigation will temporarily show both logos next to each other so you can compare how each one looks on the site. Once you pick your favorite, we can remove the other one.
+Apply your chosen logo (3) and text style (A) across the entire site, including the browser tab icon (favicon).
 
 ### Changes
 
-**1. Add Logo Files**
-- Copy `Runestone_Masonry_5x5_1.png` (blue/cream version) to `public/images/`
-- Copy `Runestone_Masonry_Transparent.png` (black/white version) to `public/images/`
+**1. Favicon (Browser Tab Icon)**
+Update `index.html` to use Logo 3 as the favicon:
+- Add a link tag pointing to `/images/Runestone_Masonry_5x5in_3.png`
+- This will replace the current `favicon.ico` with your chosen logo
 
-**2. Update Navigation Component**
-Modify `src/components/Navigation.tsx` to display both logos with labels:
+**2. Navigation (`src/components/Navigation.tsx`)**
+- Remove the side-by-side logo comparison with labels
+- Display only Logo 3 as the single logo
+- Keep the menu title image next to it
 
-```text
-Current:  [Logo] [Title]
+**3. Hero Section (`src/components/HeroSection.tsx`)**
+- Replace the 3-logo comparison with just Logo 3
+- Replace the stacked text comparison with just Text A
+- Remove all numeric/letter labels
 
-Updated:  [Logo 1] [Logo 2] [Title]
-           "1"       "2"
-```
+**4. Footer (`src/components/Footer.tsx`)**
+- Update the footer logo to use Logo 3 for consistency
 
-Each logo will have a small number label underneath so you can easily tell us which one you prefer (Logo 1 = blue/cream, Logo 2 = black/white).
+**5. Cleanup**
+Remove unused image files:
+- `Runestone_Masonry_5x5_1.png` (Logo 1)
+- `Runestone_Masonry_Transparent.png` (Logo 2)
+- `Runestone_Masonry_Text_2.png` (Text B)
 
 ### Files Modified
-- `public/images/Runestone_Masonry_5x5_1.png` (new file)
-- `public/images/Runestone_Masonry_Transparent.png` (new file)
+- `index.html`
 - `src/components/Navigation.tsx`
+- `src/components/HeroSection.tsx`
+- `src/components/Footer.tsx`
 
-### After You Decide
-Once you pick your favorite, just let me know which one (1 or 2) and I'll:
-- Remove the other logo
-- Update the navigation to show only your chosen logo
-- Clean up the unused image file
+### Result
+Your chosen branding will appear consistently everywhere:
+- **Browser tab**: Logo 3 as the favicon
+- **Navigation**: Logo 3 + menu title
+- **Hero**: Logo 3 + Text A
+- **Footer**: Logo 3
 
