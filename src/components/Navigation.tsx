@@ -39,51 +39,16 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo placeholder */}
           <div className="flex items-center gap-3">
-            {/* Logo 1 */}
-            <div className="flex flex-col items-center">
-              <button
-                onClick={() => scrollToSection('hero')}
-                className="hover:opacity-80 transition-opacity"
-              >
-                <img 
-                  src="/images/Runestone_Masonry_5x5_1.png" 
-                  alt="Runestone Masonry Logo Option 1" 
-                  className="h-10 w-auto object-contain"
-                />
-              </button>
-              <span className="text-xs text-muted-foreground mt-1">1</span>
-            </div>
-            
-            {/* Logo 2 */}
-            <div className="flex flex-col items-center">
-              <button
-                onClick={() => scrollToSection('hero')}
-                className="hover:opacity-80 transition-opacity"
-              >
-                <img 
-                  src="/images/Runestone_Masonry_Transparent.png" 
-                  alt="Runestone Masonry Logo Option 2" 
-                  className="h-10 w-auto object-contain"
-                />
-              </button>
-              <span className="text-xs text-muted-foreground mt-1">2</span>
-            </div>
-            
-            {/* Logo 3 */}
-            <div className="flex flex-col items-center">
-              <button
-                onClick={() => scrollToSection('hero')}
-                className="hover:opacity-80 transition-opacity"
-              >
-                <img 
-                  src="/images/Runestone_Masonry_5x5in_3.png" 
-                  alt="Runestone Masonry Logo Option 3" 
-                  className="h-10 w-auto object-contain"
-                />
-              </button>
-              <span className="text-xs text-muted-foreground mt-1">3</span>
-            </div>
-            
+           <button
+             onClick={() => scrollToSection('hero')}
+             className="hover:opacity-80 transition-opacity"
+           >
+             <img 
+               src="/images/Runestone_Masonry_5x5in_3.png" 
+               alt="Runestone Masonry Logo" 
+               className="h-10 w-auto object-contain"
+             />
+           </button>
             <img 
               src="/images/menu-title.png" 
               alt="Runestone Masonry" 

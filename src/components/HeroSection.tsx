@@ -19,55 +19,25 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Logo Comparison */}
-          <div className="mb-6 animate-fade-in -mt-16 flex justify-center items-end gap-6 md:gap-8">
-            <div className="flex flex-col items-center">
-              <img 
-                src="/images/Runestone_Masonry_5x5_1.png" 
-                alt="Runestone Masonry Logo Option 1" 
-                className="h-40 md:h-56 w-auto object-contain"
-              />
-              <span className="text-lg text-muted-foreground mt-2 font-medium">1</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img 
-                src="/images/Runestone_Masonry_Transparent.png" 
-                alt="Runestone Masonry Logo Option 2" 
-                className="h-40 md:h-56 w-auto object-contain"
-              />
-              <span className="text-lg text-muted-foreground mt-2 font-medium">2</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img 
-                src="/images/Runestone_Masonry_5x5in_3.png" 
-                alt="Runestone Masonry Logo Option 3" 
-                className="h-40 md:h-56 w-auto object-contain"
-              />
-              <span className="text-lg text-muted-foreground mt-2 font-medium">3</span>
-            </div>
+         {/* Logo */}
+         <div className="mb-6 animate-fade-in -mt-16 flex justify-center">
+           <img 
+             src="/images/Runestone_Masonry_5x5in_3.png" 
+             alt="Runestone Masonry Logo" 
+             className="h-40 md:h-56 w-auto object-contain"
+           />
           </div>
 
-          {/* Text Title Comparison */}
+         {/* Text Title */}
           <div 
-            className="mb-6 animate-fade-in flex flex-col justify-center items-center gap-8"
+           className="mb-6 animate-fade-in flex justify-center"
             style={{ animationDelay: '0.2s' }}
           >
-            <div className="flex flex-col items-center">
-              <img 
-                src="/images/Runestone_Masonry_Text_1.png" 
-                alt="Runestone Masonry Text Option 1"
-                className="h-auto w-full max-w-2xl object-contain"
-              />
-              <span className="text-lg text-muted-foreground mt-2 font-medium">Text A</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img 
-                src="/images/Runestone_Masonry_Text_2.png" 
-                alt="Runestone Masonry Text Option 2"
-                className="h-auto w-full max-w-2xl object-contain"
-              />
-              <span className="text-lg text-muted-foreground mt-2 font-medium">Text B</span>
-            </div>
+           <img 
+             src="/images/Runestone_Masonry_Text_1.png" 
+             alt="Runestone Masonry"
+             className="h-auto w-full max-w-2xl object-contain"
+           />
           </div>
 
           <p 
