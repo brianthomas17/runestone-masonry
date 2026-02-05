@@ -49,11 +49,6 @@ const Navigation = () => {
                className="h-10 w-auto object-contain"
              />
            </button>
-            <img 
-              src="/images/menu-title.png" 
-              alt="Runestone Masonry" 
-              className="h-8 w-auto object-contain hidden sm:block"
-            />
           </div>
 
           {/* Desktop Navigation */}
